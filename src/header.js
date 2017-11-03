@@ -10,7 +10,6 @@ class Header extends React.Component{
 
          <nav>
          `  <ul>
-            </ul>
               <li>"
                <a href ="#"> Home /a>
               </li>
@@ -20,6 +19,7 @@ class Header extends React.Component{
               <li>"
                <a href ="#"> Teams /a>
               </li>
+            </ul>
          </nav>
         </Header>
         );
