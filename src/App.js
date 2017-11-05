@@ -9,6 +9,7 @@ import {
 import Header from './components/headerComponent/header';
 import Homepage from './components/pages/homePage';
 import Team from './components/pages/team';
+import Facts from './components/pages/facts'
 //includes
 import './Assets/css/default.min.css'
 
@@ -22,6 +23,7 @@ class App extends Component {
 
       	<Route exact path='/' component={Homepage} />
       	<Route exact path='/team' component={Team} />
+        <Route exact path='/facts' component={Facts} />
 
       </div>
       </Router>
