@@ -42,6 +42,7 @@ body {
 	color: $black;
 	font-weight: 400;
 	font-style: normal;
+	background: $lightGrey;
 }
 
 a {
@@ -50,7 +51,7 @@ a {
 	cursor: pointer;
 
 	&:hover{
-	color: $red;
+	color: $lightGrey;
 	@include transition(.4s ease-in-out);
 	}
 }

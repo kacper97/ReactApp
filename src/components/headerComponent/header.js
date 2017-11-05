@@ -20,6 +20,18 @@ class Header extends React.Component{
               <li>
                <Link to="/Team">Team </Link>
               </li>
+              <li>
+                <Link to="/History">History</Link>
+              </li>
+              <li>
+                <Link to="/Facts">Facts</Link>
+              </li>
+              <li>
+                <Link to="/StalowaWola">Origin</Link>
+              </li>
+              <li>
+                <Link to="/Food">Food</Link>
+              </li>
               <li className="last">  
                 <Link to="/Sights">Sights </Link>
               </li>
