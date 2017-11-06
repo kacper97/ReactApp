@@ -21,7 +21,9 @@ class Team extends Component {
        </p>
        <p>
        Poland also won the gold medal in the 1972 Summer Olympics in Munich; the silver medal in 1976 in Montreal; and a silver medal in 1992 in Barcelona.
-       Poland first qualified for the UEFA European Championship in 2008. They also qualified automatically for Euro 2012 by virtue of being joint hosts alongside Ukraine. They finished bottom of their group on both occasions. Their first win in the Euros was on 12 June 2016 in a group stage match of Euro 2016 against Northern Ireland.[3] Poland reached the quarterfinals, the team's best result. Poland is currently ranked at 6th in the world, one position below their all-time high from August 2017.
+       Poland first qualified for the UEFA European Championship in 2008. They also qualified automatically for Euro 2012 by virtue of being joint hosts alongside Ukraine. 
+       They finished bottom of their group on both occasions. Their first win in the Euros was on 12 June 2016 in a group stage match of Euro 2016 against Northern Ireland.
+        Poland reached the quarterfinals, the team's best result. Poland is currently ranked at 6th in the world, one position below their all-time high from August 2017.
 	     </p>
      </div>
     );
