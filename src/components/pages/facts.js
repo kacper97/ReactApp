@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 //bootstrap css container = container fluid
-class Team extends Component {
+class Facts extends Component {
   render() {
     return (
       <div className="container-fluid"> 
@@ -26,4 +26,4 @@ class Team extends Component {
   }
 }
 
-export default Team;
+export default Facts;

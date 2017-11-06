@@ -9,7 +9,10 @@ import {
 import Header from './components/headerComponent/header';
 import Homepage from './components/pages/homePage';
 import Team from './components/pages/team';
-import Facts from './components/pages/facts'
+import Facts from './components/pages/facts';
+import History from './components/pages/history';
+import Origin from './components/pages/origin';
+import Sights from './components/pages/sights';
 //includes
 import './Assets/css/default.min.css'
 
@@ -24,6 +27,9 @@ class App extends Component {
       	<Route exact path='/' component={Homepage} />
       	<Route exact path='/team' component={Team} />
         <Route exact path='/facts' component={Facts} />
+        <Route exact path='/history' component={History} />
+        <Route exact path='/origin' component={Origin}/>
+        <Route exact path='/sights' component={Sights}/>
 
       </div>
       </Router>

@@ -27,7 +27,7 @@ class Header extends React.Component{
                 <Link to="/Facts">Facts</Link>
               </li>
               <li>
-                <Link to="/StalowaWola">Origin</Link>
+                <Link to="/Origin">Origin</Link>
               </li>
               <li>
                 <Link to="/Food">Food</Link>
