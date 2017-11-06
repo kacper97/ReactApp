@@ -13,6 +13,7 @@ import Facts from './components/pages/facts';
 import History from './components/pages/history';
 import Origin from './components/pages/origin';
 import Sights from './components/pages/sights';
+import Food from './components/pages/food';
 //includes
 import './Assets/css/default.min.css'
 
@@ -30,6 +31,7 @@ class App extends Component {
         <Route exact path='/history' component={History} />
         <Route exact path='/origin' component={Origin}/>
         <Route exact path='/sights' component={Sights}/>
+        <Route exact path='/food' component={Food}/>
 
       </div>
       </Router>

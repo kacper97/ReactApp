@@ -10,15 +10,20 @@ class Team extends Component {
       	Team
       	</h1>
       	<p>
-      	Poland officially the Republic of Poland (Polish: Rzeczpospolita Polska, is a country in Central Europe, bordered by Germany to the west; the Czech Republic and Slovakia to the south; Ukraine and Belarus to the east; and the Baltic Sea, Kaliningrad Oblast (a Russian exclave) and Lithuania to the north. The total area of Poland is 312,679 square kilometres, making it the 71st largest country in the world and the 9th largest in Europe. With a population of over 38.5 million people, Poland is the 34th most populous country in the world, the sixth most populous member of the European Union, and the most populous post-communist member of the European Union. Poland is a unitary state divided into 16 administrative subdivisions.
-      	</p>
-      	<p>
-		   Poland is an eastern European country on the Baltic Sea known for its medieval architecture, Jewish heritage and hearty cuisine. In the city of Krakow, 14th-century Wawel Castle rises above the medieval Old Town, home to Cloth Hall, a Renaissance trading post in Rynek Glówny (market square). Nearby is the Auschwitz-Birkenau concentration camp memorial, and Wieliczka Salt Mine, with tunnels to explore.
-		    </p>
-		    <p> n
-		    Despite the vast casualties and destruction the country experienced during World War II, Poland managed to preserve much of its cultural wealth. There are 14 heritage sites inscribed on the UNESCO World Heritage and 54 Historical Monuments and many objects of cultural heritage in Poland. Since the end of the communist period, Poland has achieved a "very high" ranking in terms of human development, as well as gradually improving economic freedom. Poland is the sixth largest economy in the European Union and among the fastest rising economic states in the world. The country is the sole member nation of the European Union to have escaped a decline in GDP and in recent years was able to create probably the most varied GDP growth in its history. Furthermore, according to the Global Peace Index for 2014, Poland is one of the safest countries in the world to live in.
-		    </p>
-	  </div>
+      	The Poland national football team (Polish: Reprezentacja Polski w piłce nożnej) represents Poland in association football and is controlled by the Polish Football Association, the governing body for football in Poland. 
+        Poland's home ground is the National Stadium in Warsaw and their current head coach is Adam Nawałka.
+        </p>
+        <p>
+        One of the most renowned Polish teams was the one of the mid-1970s.
+        Poland held England to a draw in a dramatic match at Wembley Stadium to qualify for the 1974 FIFA World Cup. Poland reached the semi-finals, where the deciding game against the eventual champions Germany resulted in a narrow 0-1 defeat. 
+        Just missing out on the final, Poland ended the tournament by defeating Brazil 1–0 to claim third place in the tournament. Striker Grzegorz Lato won the Golden Boot for his seven goals.
+       Poland also finished third in the 1982 tournament, beating France 3–2 in the third-place play-off.
+       </p>
+       <p>
+       Poland also won the gold medal in the 1972 Summer Olympics in Munich; the silver medal in 1976 in Montreal; and a silver medal in 1992 in Barcelona.
+       Poland first qualified for the UEFA European Championship in 2008. They also qualified automatically for Euro 2012 by virtue of being joint hosts alongside Ukraine. They finished bottom of their group on both occasions. Their first win in the Euros was on 12 June 2016 in a group stage match of Euro 2016 against Northern Ireland.[3] Poland reached the quarterfinals, the team's best result. Poland is currently ranked at 6th in the world, one position below their all-time high from August 2017.
+	     </p>
+     </div>
     );
   }
 }
