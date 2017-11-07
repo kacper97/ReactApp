@@ -45,6 +45,8 @@ body {
 	background: $white;
 }
 
+}
+
 a {
 	text-decoration: none;
 	@include transition(.4s ease-in-out);
@@ -59,6 +61,11 @@ a {
 .container-fluid {
 	line-height: 24px;
 }
+
+.image {
+	
+}
+
 
 
 

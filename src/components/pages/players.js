@@ -7,7 +7,7 @@ class PlayerListItem extends Component {
         return (
             <li> 
                 <h2>{this.props.player.name}</h2>
-                <p> {this.props.player.club} , Player Number -> {this.props.player.number} </p> 
+                <p> {this.props.player.club} , Player's Shirt Number -> {this.props.player.number} </p> 
             </li>
         );
     }
