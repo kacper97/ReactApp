@@ -5,12 +5,10 @@ var request = require('superagent') ;
 class PlayerListItem extends Component {
     render() {
         return (
-            <div className="container-fluid">
             <li> 
-                <h2>{this.props.player.name}</h2> 
-                <p>{this.props.player.club} </p>
+                <h2>{this.props.player.name}</h2>
+                <p> {this.props.player.club} , Player Number -> {this.props.player.number} </p> 
             </li>
-            </div>
         );
     }
 }
@@ -26,7 +24,7 @@ class PlayerList extends Component {
 
     render() {
         var items = this.props.list.map(function(item) {
-            return <PlayerListItem key={item.club} player={item} />;
+            return <PlayerListItem key={item.name} player={item} />;
         });
         return (
             <ul>
@@ -75,8 +73,6 @@ class FilteredPlayers extends Component {
             </div>
         );
     }
-    
-
 }
 
 export default FilteredPlayers;
