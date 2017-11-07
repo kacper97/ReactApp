@@ -7,7 +7,7 @@ class Sights extends Component {
       <div className="container-fluid"> 
         
         <h1>
-        Sights (Not yet complete, will have pictures linking to towns)
+        Sights
         </h1>
         <p>
           Poland has 10 cities with a population which is over 300,000 people living in them. The cities in Poland and developed for tourism with many tourist attractions in each of the cities.

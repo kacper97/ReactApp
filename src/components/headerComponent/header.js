@@ -34,7 +34,7 @@ class Header extends Component{
               </li>
                <li>
                 <Link to="/Players">Players</Link>
-              </li>
+                </li>   
               <li className="last">  
                 <Link to="/Sights">Sights </Link>
               </li>
