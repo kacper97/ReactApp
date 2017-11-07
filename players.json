@@ -2,27 +2,75 @@
       "players": [
         {
           "id": 1,
-          "name": "Joe Bloggs",
-          "address": "1 Main Street",
-          "email": "jbloggs@here.con"
+          "name": "Wojciech Szczęsny",
+          "club": "Juventus",
+          "number": "1"
         },
         {
           "id": 2,
-          "name": "Paula Smith",
-          "address": "5 High Street",
-          "email": "psmith@here.con"
+          "name": "Łukasz Piszczek",
+          "club": "Borussia Dortmund",
+          "number": "20"
         },
         {
           "id": 3,
-          "name": "Catherine Dwyer",
-          "address": "2 Upper Street",
-          "email": "cdwyer@here.con"
+          "name": "Kamil Glik",
+          "club": "As Monaco",
+          "number": "15"
         },
         {
           "id": 4,
-          "name": "Paul Briggs",
-          "address": "3 Side Street",
-          "email": "pbriggs@here.con"
+          "name": "Michał Pazdan",
+          "club": "Legia Warszawa",
+          "number": "22"
+        },
+        {
+          "id": 5,
+          "name": "Bartosz Bereszyński",
+          "club": "Legia Warszawa",
+          "number": "3"
+        },
+        {
+          "id": 6,
+          "name": "Jakub Błaszczykowski",
+          "club": "Borussia Dortmund",
+          "number": "16"
+        },
+        {
+          "id": 7,
+          "name": "Grzegorz Krychowiak",
+          "club": "WBA",
+          "number": "10"
+        },
+        {
+          "id": 8,
+          "name": "Krzysztof Mączyński",
+          "club": "Legia Warszawa",
+          "number": "5"
+        },
+         {
+          "id": 9,
+          "name": "Kamil Grosicki",
+          "club": "Hull City",
+          "number": "11"
+        },
+         {
+          "id": 10,
+          "name": "Piotr Zieliński",
+          "club": "Napoli",
+          "number": "19"
+        },
+         {
+          "id": 11,
+          "name": "Robert Lewandowski",
+          "club": "Bayern Munchen",
+          "number": "9"
+        },
+         {
+          "id": 12,
+          "name": "Łukasz Fabiański",
+          "club": "Swansea city",
+          "number": "22"
         }
       ]
     }

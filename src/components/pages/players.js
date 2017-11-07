@@ -8,8 +8,7 @@ class PlayerListItem extends Component {
             <div className="container-fluid">
             <li> 
                 <h2>{this.props.player.name}</h2> 
-                <a href={'mailto:'+this.props.player.email}>
-                    {this.props.player.email} </a>
+                <p>{this.props.player.club} </p>
             </li>
             </div>
         );
@@ -27,7 +26,7 @@ class PlayerList extends Component {
 
     render() {
         var items = this.props.list.map(function(item) {
-            return <PlayerListItem key={item.email} player={item} />;
+            return <PlayerListItem key={item.club} player={item} />;
         });
         return (
             <ul>
