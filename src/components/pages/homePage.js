@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import poland from './img/poland.jpg'
+import poland from './img/poland.jpg';
 //bootstrap css container = container fluid
 class Homepage extends Component {
   render() {

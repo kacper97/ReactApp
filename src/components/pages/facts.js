@@ -7,7 +7,7 @@ class Facts extends Component {
       <div className="container-fluid"> 
       	
       	<h1>
-      	Facts about poland
+      	Facts about Poland
       	</h1>
       	<p>
          <li> Poland’s highest point is Mt. Rysy at 8,199 feet (2,499 m); its lowest is near Raczki Elbląskie at 6.56 feet (2 m) below sea level.</li>

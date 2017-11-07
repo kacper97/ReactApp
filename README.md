@@ -28,20 +28,16 @@ To run the app, firstly user needs to run a command " gulp " that is used to min
 
 ## Data Model Design.
 
-. . . . . Diagram of app's data model (see example below) AND/OR a sample of the test data used (JSON or equivalent). Always use meaningful sample data . . . . 
-
 ![][image1]
 
 ## App Component Design.
 
- . . . A diagram showing the app's hierarchical component design (see example below) . . . .  
-
 ![][image2]
 
 ## UI Design.
-. . . . . Screenshots of app's views (see example below) with appropriate captions . . . . . . . 
 
 ![][image3]
+![][image4]
 
 ## Routing.
 
@@ -58,11 +54,12 @@ To run the app, firstly user needs to run a command " gulp " that is used to min
 I added a header, that was not implemented in any labs. Also used Gulp as I read up it improves efficiency and that was part of the specifications of the assignment. This minimilises SCSS files, which is a Sass library CSS file and outputs it to a new file that takes up less space and is way more efficient in loading. Also added a design feature in SASS, that when any link on the header is dragged on a transition occurs that changes thhe colour of the item and underlines it to highlight the part the user will navigate to next.
 
 ## Independent learning.
-As mentioned before, I searched a quick and efficient way of loading a Cascading Style Sheet (CSS) onto a web app, so that the user gets everything quicker. Gulp and Sass were main ones used. Sass was 
+As mentioned before, I searched a quick and efficient way of loading a Cascadi ng Style Sheet (CSS) onto a web app, so that the user gets everything quicker. Gulp and Sass were main ones used. Sass was 
 a Casscading Style Sheet library, like semantic but as I learned it may be more used in industry, rather than in college projects. Gulp is Needed for SASS,as SCSS files are not readable in current version browsers, meaning we can write in SCSS then process it using Gulp and then write neater code as the CSS compiled with a tree structure and allow code to be cleaner and more efficient. Needs to be compiled and minified for efficiency as previously said no browser supports the SCSS library.
 
 Also learned how to make a header that links to other pages of the web app, which is like having a main page with links to others, but in a way nicer and neater method.
 
 [image1]: ./model.png
-[image2]: ./design.jpg
+[image2]: ./design.png
 [image3]: ./screen.png
+[image4]: ./screen2.png
