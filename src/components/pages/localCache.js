@@ -1,7 +1,7 @@
 class LocalCache {
 
     constructor() {
-        this.team = [] ;
+        this.players= [] ;
     }
 
     getAll() {
@@ -11,8 +11,6 @@ class LocalCache {
     populate(players) {
         this.players = players;
     }
-
-
 }
 
 export default (new LocalCache() );

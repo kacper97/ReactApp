@@ -2,19 +2,21 @@ import React, { Component } from 'react';
 import localCache from './localCache';
 var request = require('superagent') ;
 
-class PlayerListItem extends React.Component {
+class PlayerListItem extends Component {
     render() {
         return (
+            <div className="container-fluid">
             <li> 
                 <h2>{this.props.player.name}</h2> 
                 <a href={'mailto:'+this.props.player.email}>
                     {this.props.player.email} </a>
             </li>
+            </div>
         );
     }
 }
 
-class PlayerList extends React.Component {
+class PlayerList extends Component {
     shouldComponentUpdate(nextProps, nextState) {
         if (this.props.list.length === nextProps.list.length ) {
             return false ;
@@ -36,7 +38,7 @@ class PlayerList extends React.Component {
 }
 
 
-class FilteredPlayers extends React.Component {
+class FilteredPlayers extends Component {
     state = {
         searchText : ''
     };
@@ -54,7 +56,7 @@ class FilteredPlayers extends React.Component {
             }.bind(this)); 
     }
 
-    filterplayers = (event) => {
+    filterPlayers = (event) => {
         event.preventDefault() ;
         this.setState({searchText : 
              event.target.value.toLowerCase()});
@@ -74,6 +76,8 @@ class FilteredPlayers extends React.Component {
             </div>
         );
     }
+    
+
 }
 
 export default FilteredPlayers;
