@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import mountain from './img/mountain.jpg';
 //bootstrap css container = container fluid
 class Facts extends Component {
   render() {
@@ -20,7 +20,9 @@ class Facts extends Component {
          <li>The highest mountain in Australia, Mount Kosciuszko, was named after Polish General Tadeusz Kościuszko, who fought against the Russian Empire as well as in the American Revolutionary War.</li>
          <li>Poland has a history of producing high-quality vodka for more than 500 years. The first Polish vodkas appeared in the 11th century when they were called gorzalkas and used as medicines.</li>
          <li>Polish-born Mariusz Pudzianowski is a five-time winner of the “World’s Strongest Man” title.</li>
-        </p>    
+        </p> 
+        <div classname="image">
+         <img src={mountain} alt="Mt pic"/> </div>
 	  </div>
     );
   }

@@ -67,7 +67,7 @@ class FilteredPlayers extends Component {
         return (
             <div>
                 <h1>Players List</h1>
-                <input type="text" placeholder="Search" 
+                <input type="text" placeholder="Search for player" 
                     onChange={this.filterPlayers} />
                 <PlayerList list={updatedList} />
             </div>

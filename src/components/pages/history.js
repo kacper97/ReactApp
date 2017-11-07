@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import history from './img/history.jpg';
 //bootstrap css container = container fluid
 class History extends Component {
   render() {
@@ -53,7 +53,11 @@ class History extends Component {
        <p>
        By the late 1980s the Polish reform movement Solidarity became crucial in bringing about a peaceful transition from a communist state to the capitalist economic system and to liberal parliamentary democracy. This process resulted in the creation of the modern Polish state—the Polish Third Republic. Poland has been under many attacts in the past and therefore there is a sign which states no more war "NIGDY WIECEJ WOJNY" at Westerplatte near Gdańsk.
        </p>    
+
+    <div className= "image">
+    <img src={history} alt="Old pic"/>  </div>
     </div>
+
     );
   }
 }

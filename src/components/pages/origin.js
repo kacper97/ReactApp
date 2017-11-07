@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import stalowa from './img/stalowa.jpg';
 //bootstrap css container = container fluid
 class Origin extends Component {
   render() {
@@ -19,6 +19,8 @@ class Origin extends Component {
          The city is dynamic but its greatest assets are the citizens. Young and well educated, they make up a priceless potential with great intellectual and manual capabilities, which can mange any kind of business activity.Other special values of the city and almost industrial field are its modern urban planning, its space and natural environment. Big woods on the banks of the River San, allowing vast space for active rest and good communication routes make up the rest. Stalowa Wola is the dynamic administration, cultural, educational and sport center.
          In the area of education the first violin plays the branch of Katolicki Universytet Lubelski, where currently study over 3 thousand students. In 1998 the new branch of the Polytechnic of Rzeszów was established, educating graduates finding employment in the local companies. In the academic year 2001/2002 its activity began the College of Economics. The preference in the education program has been given to the economics, law, computer science and foreign languages. The oldest educational institution is the Public Library, established in 1938 and operating since then without interruption. There are also two culture houses and music school operating in the city. There is a lot of facilities for young people in this new city.
          </p>
+    <div className ="image">
+    <img src={stalowa} alt="stw pic"/> </div>
 	  </div>
     );
   }

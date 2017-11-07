@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import team from './img/team.jpg';
 //bootstrap css container = container fluid
 class Team extends Component {
   render() {
@@ -25,6 +25,10 @@ class Team extends Component {
        They finished bottom of their group on both occasions. Their first win in the Euros was on 12 June 2016 in a group stage match of Euro 2016 against Northern Ireland.
         Poland reached the quarterfinals, the team's best result. Poland is currently ranked at 6th in the world, one position below their all-time high from August 2017.
 	     </p>
+        <div className= "image">
+    
+     <img src={team} alt="team pic"/>  </div>
+    
      </div>
     );
   }

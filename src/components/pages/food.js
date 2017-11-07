@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import pierogi from './img/pierogi.jpg';
 //bootstrap css container = container fluid
 class Food extends Component {
   render() {
@@ -25,8 +25,9 @@ class Food extends Component {
          preparation. Many Poles allow themselves a generous amount of time to serve and enjoy their festive meals, 
          especially Christmas eve dinner (Wigilia) or Easter breakfast which could take a number of days to prepare in their entirety.
         </p>
-        
-	  </div>
+     <div className ="image">
+    <img src={pierogi} alt="food pic"/> </div>
+    </div>
     );
   }
 }

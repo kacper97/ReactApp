@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import warsaw from './img/warsaw.jpg';
 //bootstrap css container = container fluid
 class Sights extends Component {
   render() {
@@ -21,7 +21,9 @@ class Sights extends Component {
         <p>
         Cracow(Polish: Kraków) is the second largest and one of the oldest cities in Poland. Situated on the Vistula River in the Lesser Poland region, the city dates back to the 7th century.Kraków has traditionally been one of the leading centres of Polish academic, cultural, and artistic life and is one of Poland's most important economic hubs. It was the capital of the Crown of the Kingdom of Poland from 1038 to 1569. Cracow is the largest city which is located to the place where I was born. 
         </p>
-      </div>
+    <div className ="image">
+    <img src={warsaw} alt="warsaw pic"/> </div>
+    </div>
     );
   }
 }
