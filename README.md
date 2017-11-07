@@ -3,10 +3,8 @@
 Name: Kacper Woloszyn
 
 ## Overview.
-...... The app was made to inform everyone about Poland and myself. User can search football players
-and learn the vast information that I have provided on the web App. The App has a header that links the various different pages, and also pictures that show a brief overview of what the topic was about. Routing was added in the header to make the design look presentable. Use Gulp and Sass. Sass is a css library and gulp is used to compile it to a minimalistic css. This is done to increase the efficiency and decrease the time it takes for the webpage to load. Used a json server to link players to the web app, and when any user typed in a string that would decrease the list of Polish players, this is done to find out what club they play at and what number jearsey they have. The local cache stored the players in an array. All the routes in the header work and the user can navigate the web-app ........
-
-
+ The app was made to inform everyone about Poland and myself. User can search football players
+and learn the vast information that I have provided on the web App. The App has a header that links the various different pages, and also pictures that show a brief overview of what the topic was about. Routing was added in the header to make the design look presentable. Use Gulp and Sass. Sass is a css library and gulp is used to compile it to a minimalistic css. This is done to increase the efficiency and decrease the time it takes for the webpage to load. Used a json server to link players to the web app, and when any user typed in a string that would decrease the list of Polish players, this is done to find out what club they play at and what number jearsey they have. The local cache stored the players in an array. All the routes in the header work and the user can navigate the web-app.
  . . . . . List of user features . . . . 
  
  + Look for players
@@ -24,7 +22,7 @@ and learn the vast information that I have provided on the web App. The App has 
 + babel
 + json server
 
-+When pulled repo, user types in npm install, this will install all the things that are included in my package.json
+When pulled repo, user types in npm install, this will install all the things that are included in my package.json
 To run the app, firstly user needs to run a command " gulp " that is used to minimalise the CSS and to make sure the sight is running sufficiently by compressing SCSS into minimised CSS. Whilst this is running the user opens up another terminal. In that she/he types in "json-server ./players.json" to get a json server on port:3000 to have the info of players stored. To make sure it worked correctly, user may navigate to "localhost:3000/players". The json file will be outputed there. The person then types in " npm start " to run a server and when prompt to use port 3001, instead of 3000 user types in Y. This is because the Json Server is running on port 3000. User has the running Web App
 
 
@@ -46,7 +44,6 @@ To run the app, firstly user needs to run a command " gulp " that is used to min
 ![][image3]
 
 ## Routing.
-. . . . List each route supported by the app and state the associated view . . . . . (see examples below)
 
 + / - displays home page
 + /team - displays team page
