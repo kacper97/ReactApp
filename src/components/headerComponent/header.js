@@ -33,7 +33,7 @@ class Header extends Component{
                 <Link to="/Food">Food</Link>
               </li>
               <li>
-                <Link to="/Filteredplayers">Players</Link>
+                <Link to="/Players">Players</Link>
               </li>
               <li className="last">  
                 <Link to="/Sights">Sights </Link>
