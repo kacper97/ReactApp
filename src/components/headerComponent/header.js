@@ -3,7 +3,7 @@ import {
   Link
   } from 'react-router-dom';
 
-class Header extends React.Component{
+class Header extends Component{
       render(){
         return(
         <header>
@@ -31,6 +31,9 @@ class Header extends React.Component{
               </li>
               <li>
                 <Link to="/Food">Food</Link>
+              </li>
+              <li>
+                <Link to="/Filteredplayers">Players</Link>
               </li>
               <li className="last">  
                 <Link to="/Sights">Sights </Link>
